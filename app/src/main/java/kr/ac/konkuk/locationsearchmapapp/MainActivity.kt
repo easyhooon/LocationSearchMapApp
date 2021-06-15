@@ -59,9 +59,7 @@ class MainActivity : AppCompatActivity(), CoroutineScope {
 
     private fun bindViews() = with(binding) {
         searchButton.setOnClickListener {
-            searchButton.setOnClickListener {
-                searchKeyword(searchBarInputView.text.toString())
-            }
+            searchKeyword(searchBarInputView.text.toString())
         }
     }
 
